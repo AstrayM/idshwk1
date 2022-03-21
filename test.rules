@@ -1,0 +1,4 @@
+#57119304
+#test rules
+
+alert tcp any any -> $HOME_NET 1080 (msg:"TEST ALERT"; flags:U; content:"host ip"; offset:9;depth:11; sid:1000001; rev:1;)
